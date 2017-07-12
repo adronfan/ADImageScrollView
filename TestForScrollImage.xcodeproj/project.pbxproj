@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3CBBB17D1F14F6CE00B096E6 /* ADImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBBB17C1F14F6CE00B096E6 /* ADImageScrollView.m */; };
+		3C94D6941F163F220088B622 /* ADImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C94D6931F163F220088B622 /* ADImageScrollView.m */; };
 		3CD6C2A31F14F62100277AEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD6C2A21F14F62100277AEC /* main.m */; };
 		3CD6C2A61F14F62100277AEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD6C2A51F14F62100277AEC /* AppDelegate.m */; };
 		3CD6C2A91F14F62100277AEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD6C2A81F14F62100277AEC /* ViewController.m */; };
@@ -20,8 +20,8 @@
 /* Begin PBXFileReference section */
 		163AEC2041F334AEE1E103F7 /* libPods-TestForScrollImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestForScrollImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FBB3392C4C05BC9CC103ADD /* Pods-TestForScrollImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestForScrollImage.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestForScrollImage/Pods-TestForScrollImage.release.xcconfig"; sourceTree = "<group>"; };
-		3CBBB17B1F14F6CE00B096E6 /* ADImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADImageScrollView.h; sourceTree = "<group>"; };
-		3CBBB17C1F14F6CE00B096E6 /* ADImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADImageScrollView.m; sourceTree = "<group>"; };
+		3C94D6921F163F220088B622 /* ADImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADImageScrollView.h; sourceTree = "<group>"; };
+		3C94D6931F163F220088B622 /* ADImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADImageScrollView.m; sourceTree = "<group>"; };
 		3CD6C29E1F14F62100277AEC /* TestForScrollImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestForScrollImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CD6C2A21F14F62100277AEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3CD6C2A41F14F62100277AEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -47,6 +47,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C94D6911F163F220088B622 /* ADImageScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				3C94D6921F163F220088B622 /* ADImageScrollView.h */,
+				3C94D6931F163F220088B622 /* ADImageScrollView.m */,
+			);
+			path = ADImageScrollView;
+			sourceTree = "<group>";
+		};
 		3CD6C2951F14F62000277AEC = {
 			isa = PBXGroup;
 			children = (
@@ -68,12 +77,11 @@
 		3CD6C2A01F14F62100277AEC /* TestForScrollImage */ = {
 			isa = PBXGroup;
 			children = (
+				3C94D6911F163F220088B622 /* ADImageScrollView */,
 				3CD6C2A41F14F62100277AEC /* AppDelegate.h */,
 				3CD6C2A51F14F62100277AEC /* AppDelegate.m */,
 				3CD6C2A71F14F62100277AEC /* ViewController.h */,
 				3CD6C2A81F14F62100277AEC /* ViewController.m */,
-				3CBBB17B1F14F6CE00B096E6 /* ADImageScrollView.h */,
-				3CBBB17C1F14F6CE00B096E6 /* ADImageScrollView.m */,
 				3CD6C2AA1F14F62100277AEC /* Main.storyboard */,
 				3CD6C2AD1F14F62100277AEC /* Assets.xcassets */,
 				3CD6C2AF1F14F62100277AEC /* LaunchScreen.storyboard */,
@@ -231,7 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CBBB17D1F14F6CE00B096E6 /* ADImageScrollView.m in Sources */,
+				3C94D6941F163F220088B622 /* ADImageScrollView.m in Sources */,
 				3CD6C2A91F14F62100277AEC /* ViewController.m in Sources */,
 				3CD6C2A61F14F62100277AEC /* AppDelegate.m in Sources */,
 				3CD6C2A31F14F62100277AEC /* main.m in Sources */,
