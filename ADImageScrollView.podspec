@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = {"Adron" => "adronfan@126.com"}
   s.source       = { :git => "https://github.com/adronfan/ADImageScrollView.git", :tag => s.version }
-  s.source_files = "ADImageScrollView/*.{h,m}"
+  s.source_files = "TestForScrollImage/*.{h,m}"
   s.requires_arc = true
   s.dependency   "Masonry",'1.0.2'
   s.ios.deployment_target = "8.0"
