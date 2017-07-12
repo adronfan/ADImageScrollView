@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/adronfan/ADImageScrollView.git", :tag => s.version }
   s.source_files = "TestForScrollImage/ADImageScrollView/*.{h,m}"
   s.requires_arc = true
-  s.dependency   "Masonry",'1.0.2'
+  s.dependency   "SDWebImage", "4.0.0"
   s.ios.deployment_target = "8.0"
 end

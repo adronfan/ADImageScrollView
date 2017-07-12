@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import "ADImageScrollView.h"
-#import <Masonry/Masonry.h>
 
 #ifndef ADScreenHeight
 #define ADScreenHeight [UIScreen mainScreen].bounds.size.height
@@ -37,7 +36,7 @@
     [NSURL URLWithString:@"https://img3.doubanio.com/view/photo/lphoto/public/p2469727100.jpg"]
   ];
   v = [[ADImageScrollView alloc] initImageScrollWithFrame:CGRectMake(0, 100, ADScreenWidth, 200)
-                                                   Images:@[]
+                                                   Images:imageArray
                                          placeholderImage:nil
                                                 cycleTime:2.0];
   [v setContentMode:UIViewContentModeScaleAspectFill];
