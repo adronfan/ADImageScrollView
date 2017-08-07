@@ -167,6 +167,8 @@
     NSMutableArray *temp = [[NSMutableArray alloc] initWithCapacity:3];
     for (int i = 0; i < 3; i++) {
       UIImageView *imageView = UIImageView.new;
+      imageView.layer.masksToBounds = YES;
+      [imageView setContentMode:UIViewContentModeScaleAspectFill];
       [self.scrollView addSubview:imageView];
       [temp addObject:imageView];
     }

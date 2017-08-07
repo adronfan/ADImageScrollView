@@ -6,6 +6,7 @@ target 'TestForScrollImage' do
   # use_frameworks!
 
   pod 'SDWebImage', '~> 4.0.0'
+#  pod 'ADImageScrollView'
 #  pod 'Masonry'
 #      pod 'Reveal-SDK', '~> 8'
   # Pods for TestForScrollImage
